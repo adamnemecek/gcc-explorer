@@ -104,6 +104,8 @@ function Compiler(domRoot, origFilters, windowLocalPrefix, onChangeCallback, lan
         case "go":
             cmMode = "text/x-go";
             break;
+        case "swift":
+            cmMode = "text/x-swift"
     }
 
     cppEditor = CodeMirror.fromTextArea(domRoot.find(".editor textarea")[0], {

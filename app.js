@@ -47,7 +47,7 @@ var opts = nopt({
 });
 
 var rootDir = opts.rootDir || './etc';
-var language = opts.language || "C++";
+var language = opts.language || "swift";
 var env = opts.env || ['dev'];
 var hostname = opts.host || os.hostname();
 var port = opts.port || 10240;
